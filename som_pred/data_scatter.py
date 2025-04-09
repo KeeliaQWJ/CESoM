@@ -91,9 +91,9 @@ def partition_by_molecular_similarity(df):
     for sim in max_similarities:
         if sim <= 0.7:
             categories.append('0-70%')
-        elif sim <= 0.86:
+        elif sim <= 0.85:
             categories.append('70-85%')
-        elif sim <= 0.98:
+        elif sim <= 0.95:
             categories.append('85-95%')
         else:
             categories.append('>95%')
