@@ -52,6 +52,7 @@ Create and activate the conda environment:
 ## Model and Training
 
 All model-related code and training scripts are located in the `som_pred` directory.
+All resources are hosted on Zenodo (DOI: https://doi.org/10.5281/zenodo.15181038):
 
 1. Download the processed dataset and pretrained models and place them inside the `data` and `model_save` folders, respectively.
 2. Run the following script to perform testing:
